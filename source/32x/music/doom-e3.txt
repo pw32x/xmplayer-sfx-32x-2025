@@ -1,0 +1,3023 @@
+read xm
+xm id  : Extended Module:
+xm name: D_Intro
+xm trkr: GMID2MOD
+xm vers: 0104
+xm head: 276
+xm song: 2
+xm rest: 0
+xm chnl: 12
+xm patt: 2
+xm inst: 13
+xm flag: 1 (Linear)
+xm tmpo: 1
+xm BPM : 176
+
+Order: 00 0x1 
+
+Packed 1134 unpacked 3060
+Packed 1229 unpacked 2712
+ins samp: 1
+ins hdln: 263
+ins name: Piano1
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 13703
+sam fine: 13
+sam lpln: 1682
+sam  pan: 112
+sam reln: 29
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Timpani
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 555
+sam name: smp01M
+sam leng: 6833
+sam fine: 100
+sam lpln: 6769
+sam  pan: 112
+sam reln: 9
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Syn.Strings2
+in2 shsz: 40
+in2 nvp : 5
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 11006
+sam fine: 100
+sam lpln: 10805
+sam  pan: 112
+sam reln: 16
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: HaloPad
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 12433
+sam fine: 100
+sam lpln: 8712
+sam  pan: 112
+sam reln: -4
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Melo.Tom1
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 1365
+sam name: smp01M
+sam leng: 6498
+sam fine: 100
+sam lpln: 1003
+sam  pan: 112
+sam reln: 0
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: EchoDrops
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 390
+sam name: smp01M
+sam leng: 12433
+sam fine: 100
+sam lpln: 8712
+sam  pan: 112
+sam reln: -4
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: KICK264
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 1099
+sam fine: 36
+sam lpln: 1035
+sam  pan: 112
+sam reln: 30
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: T_SNR60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 3022
+sam fine: 100
+sam lpln: 2958
+sam  pan: 112
+sam reln: 24
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Organ3
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 3529
+sam fine: 100
+sam lpln: 2261
+sam  pan: 112
+sam reln: -7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Vibraphone
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 1310
+sam name: smp01M
+sam leng: 6579
+sam fine: 100
+sam lpln: 669
+sam  pan: 112
+sam reln: 12
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Gt.Harmonics
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 887
+sam fine: 100
+sam lpln: 71
+sam  pan: 112
+sam reln: -3
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+read xm
+xm id  : Extended Module:
+xm name: D_E3M1
+xm trkr: GMID2MOD
+xm vers: 0104
+xm head: 276
+xm song: 27
+xm rest: 0
+xm chnl: 12
+xm patt: 27
+xm inst: 15
+xm flag: 1 (Linear)
+xm tmpo: 1
+xm BPM : 176
+
+Order: 00 0x1 0x2 0x3 0x4 0x5 0x6 0x7 0x8 0x9 0xa 0xb 0xc 0xd 0xe 0xf 0x10 0x11 0x12 0x13 0x14 0x15 0x16 0x17 0x18 0x19 0x1a 
+
+Packed 1351 unpacked 3060
+Packed 1563 unpacked 3060
+Packed 1324 unpacked 3060
+Packed 1522 unpacked 3060
+Packed 1590 unpacked 3060
+Packed 1365 unpacked 3060
+Packed 1540 unpacked 3060
+Packed 1397 unpacked 3060
+Packed 1556 unpacked 3060
+Packed 1506 unpacked 3060
+Packed 1459 unpacked 3060
+Packed 1619 unpacked 3060
+Packed 1491 unpacked 3060
+Packed 1402 unpacked 3060
+Packed 1683 unpacked 3060
+Packed 1444 unpacked 3060
+Packed 1559 unpacked 3060
+Packed 1655 unpacked 3060
+Packed 1553 unpacked 3060
+Packed 1505 unpacked 3060
+Packed 1508 unpacked 3060
+Packed 1708 unpacked 3060
+Packed 1573 unpacked 3060
+Packed 1442 unpacked 3060
+Packed 1761 unpacked 3060
+Packed 1564 unpacked 3060
+Packed 591 unpacked 984
+ins samp: 1
+ins hdln: 263
+ins name: OverdriveGt
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 4791
+sam fine: 100
+sam lpln: 424
+sam  pan: 112
+sam reln: 32
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: PickedBs.
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 7202
+sam fine: 100
+sam lpln: 478
+sam  pan: 112
+sam reln: 34
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: DistortionGt
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 3683
+sam fine: 100
+sam lpln: 337
+sam  pan: 112
+sam reln: 28
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CHH__60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 414
+sam name: smp01M
+sam leng: 1408
+sam fine: 100
+sam lpln: 1344
+sam  pan: 112
+sam reln: 20
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: MONDO60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 2069
+sam fine: 100
+sam lpln: 2005
+sam  pan: 112
+sam reln: 22
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: T_SNR60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 3022
+sam fine: 100
+sam lpln: 2958
+sam  pan: 112
+sam reln: 24
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Gt.Harmonics
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 887
+sam fine: 100
+sam lpln: 71
+sam  pan: 112
+sam reln: -3
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Strings
+in2 shsz: 40
+in2 nvp : 5
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9993
+sam fine: 100
+sam lpln: 9710
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: PizzicatoStr
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 2184
+sam name: smp01M
+sam leng: 2503
+sam fine: 100
+sam lpln: 398
+sam  pan: 112
+sam reln: -7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Contrabass
+in2 shsz: 40
+in2 nvp : 5
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 2948
+sam fine: 100
+sam lpln: 501
+sam  pan: 112
+sam reln: 35
+sam type: 0x1 (if &0x10, 16bit)
+read xm
+xm id  : Extended Module:
+xm name: D_E3M2
+xm trkr: GMID2MOD
+xm vers: 0104
+xm head: 276
+xm song: 33
+xm rest: 0
+xm chnl: 12
+xm patt: 33
+xm inst: 20
+xm flag: 1 (Linear)
+xm tmpo: 1
+xm BPM : 176
+
+Order: 00 0x1 0x2 0x3 0x4 0x5 0x6 0x7 0x8 0x9 0xa 0xb 0xc 0xd 0xe 0xf 0x10 0x11 0x12 0x13 0x14 0x15 0x16 0x17 0x18 0x19 0x1a 0x1b 0x1c 0x1d 0x1e 0x1f 0x20 
+
+Packed 739 unpacked 3060
+Packed 710 unpacked 3060
+Packed 729 unpacked 3060
+Packed 1065 unpacked 3060
+Packed 1030 unpacked 3060
+Packed 1470 unpacked 3060
+Packed 1391 unpacked 3060
+Packed 1501 unpacked 3060
+Packed 1523 unpacked 3060
+Packed 1526 unpacked 3060
+Packed 1532 unpacked 3060
+Packed 1742 unpacked 3060
+Packed 1543 unpacked 3060
+Packed 1508 unpacked 3060
+Packed 1534 unpacked 3060
+Packed 1581 unpacked 3060
+Packed 1586 unpacked 3060
+Packed 1647 unpacked 3060
+Packed 1155 unpacked 3060
+Packed 1190 unpacked 3060
+Packed 1649 unpacked 3060
+Packed 1594 unpacked 3060
+Packed 1560 unpacked 3060
+Packed 1654 unpacked 3060
+Packed 1698 unpacked 3060
+Packed 1733 unpacked 3060
+Packed 1821 unpacked 3060
+Packed 1574 unpacked 3060
+Packed 1469 unpacked 3060
+Packed 1603 unpacked 3060
+Packed 1637 unpacked 3060
+Packed 1858 unpacked 3060
+Packed 417 unpacked 576
+ins samp: 2
+ins hdln: 263
+ins name: OverdriveGt
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 4791
+sam fine: 100
+sam lpln: 424
+sam  pan: 112
+sam reln: 32
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 3935
+sam fine: 100
+sam lpln: 318
+sam  pan: 112
+sam reln: 27
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: FingeredBs.
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 2855
+sam fine: 100
+sam lpln: 106
+sam  pan: 112
+sam reln: 8
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: DistortionGt
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 3683
+sam fine: 100
+sam lpln: 337
+sam  pan: 112
+sam reln: 28
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: KICK264
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 1099
+sam fine: 36
+sam lpln: 1035
+sam  pan: 112
+sam reln: 30
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: T_SNR60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 3022
+sam fine: 100
+sam lpln: 2958
+sam  pan: 112
+sam reln: 24
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 2
+ins hdln: 263
+ins name: SawWave
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 15275
+sam fine: 100
+sam lpln: 10132
+sam  pan: 112
+sam reln: 16
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 10343
+sam fine: 100
+sam lpln: 5903
+sam  pan: 112
+sam reln: 4
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CHH__60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 414
+sam name: smp01M
+sam leng: 1408
+sam fine: 100
+sam lpln: 1344
+sam  pan: 112
+sam reln: 20
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: OHH__60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 2520
+sam name: smp01M
+sam leng: 9601
+sam fine: 106
+sam lpln: 3761
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 3
+ins hdln: 263
+ins name: SquareWave
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp02M
+sam leng: 7924
+sam fine: 100
+sam lpln: 2694
+sam  pan: 112
+sam reln: 16
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp03M
+sam leng: 7583
+sam fine: 106
+sam lpln: 3551
+sam  pan: 112
+sam reln: 4
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp04M
+sam leng: 6986
+sam fine: 100
+sam lpln: 5313
+sam  pan: 112
+sam reln: -3
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: RDCYM60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9058
+sam fine: 103
+sam lpln: 4113
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: RDCYM60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9058
+sam fine: 103
+sam lpln: 4113
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: RDBEL64B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 390
+sam name: smp01M
+sam leng: 8968
+sam fine: 95
+sam lpln: 3960
+sam  pan: 112
+sam reln: 5
+sam type: 0x1 (if &0x10, 16bit)
+read xm
+xm id  : Extended Module:
+xm name: D_E3M3
+xm trkr: GMID2MOD
+xm vers: 0104
+xm head: 276
+xm song: 34
+xm rest: 0
+xm chnl: 12
+xm patt: 34
+xm inst: 7
+xm flag: 1 (Linear)
+xm tmpo: 1
+xm BPM : 176
+
+Order: 00 0x1 0x2 0x3 0x4 0x5 0x6 0x7 0x8 0x9 0xa 0xb 0xc 0xd 0xe 0xf 0x10 0x11 0x12 0x13 0x14 0x15 0x16 0x17 0x18 0x19 0x1a 0x1b 0x1c 0x1d 0x1e 0x1f 0x20 0x21 
+
+Packed 706 unpacked 3060
+Packed 1071 unpacked 3060
+Packed 1477 unpacked 3060
+Packed 1653 unpacked 3060
+Packed 1626 unpacked 3060
+Packed 1652 unpacked 3060
+Packed 1847 unpacked 3060
+Packed 1833 unpacked 3060
+Packed 1866 unpacked 3060
+Packed 1862 unpacked 3060
+Packed 1980 unpacked 3060
+Packed 2254 unpacked 3060
+Packed 2240 unpacked 3060
+Packed 2045 unpacked 3060
+Packed 1951 unpacked 3060
+Packed 2110 unpacked 3060
+Packed 2248 unpacked 3060
+Packed 2331 unpacked 3060
+Packed 3800 unpacked 3060
+Packed 3344 unpacked 3060
+Packed 1861 unpacked 3060
+Packed 1878 unpacked 3060
+Packed 1937 unpacked 3060
+Packed 1947 unpacked 3060
+Packed 1912 unpacked 3060
+Packed 2166 unpacked 3060
+Packed 2175 unpacked 3060
+Packed 2072 unpacked 3060
+Packed 1907 unpacked 3060
+Packed 1916 unpacked 3060
+Packed 2184 unpacked 3060
+Packed 2427 unpacked 3060
+Packed 2696 unpacked 3060
+Packed 1344 unpacked 1656
+ins samp: 1
+ins hdln: 263
+ins name: DistortionGt
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 3683
+sam fine: 100
+sam lpln: 337
+sam  pan: 112
+sam reln: 28
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: T_SNR60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 3022
+sam fine: 100
+sam lpln: 2958
+sam  pan: 112
+sam reln: 24
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: MONDO60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 2069
+sam fine: 100
+sam lpln: 2005
+sam  pan: 112
+sam reln: 22
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: RDCYM60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9058
+sam fine: 103
+sam lpln: 4113
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 6
+ins hdln: 263
+ins name: OverdriveGt
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 4791
+sam fine: 100
+sam lpln: 424
+sam  pan: 112
+sam reln: 32
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 3935
+sam fine: 100
+sam lpln: 318
+sam  pan: 112
+sam reln: 27
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp03M
+sam leng: 2634
+sam fine: 100
+sam lpln: 169
+sam  pan: 112
+sam reln: 16
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp04M
+sam leng: 4391
+sam fine: 100
+sam lpln: 169
+sam  pan: 112
+sam reln: 4
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp05M
+sam leng: 1333
+sam fine: 100
+sam lpln: 88
+sam  pan: 112
+sam reln: 5
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp06M
+sam leng: 1365
+sam fine: 113
+sam lpln: 80
+sam  pan: 112
+sam reln: 3
+sam type: 0x1 (if &0x10, 16bit)
+read xm
+xm id  : Extended Module:
+xm name: D_E3M4
+xm trkr: GMID2MOD
+xm vers: 0104
+xm head: 276
+xm song: 42
+xm rest: 0
+xm chnl: 12
+xm patt: 42
+xm inst: 11
+xm flag: 1 (Linear)
+xm tmpo: 1
+xm BPM : 176
+
+Order: 00 0x1 0x2 0x3 0x4 0x5 0x6 0x7 0x8 0x9 0xa 0xb 0xc 0xd 0xe 0xf 0x10 0x11 0x12 0x13 0x14 0x15 0x16 0x17 0x18 0x19 0x1a 0x1b 0x1c 0x1d 0x1e 0x1f 0x20 0x21 0x22 0x23 0x24 0x25 0x26 0x27 0x28 0x29 
+
+Packed 319 unpacked 3060
+Packed 335 unpacked 3060
+Packed 1056 unpacked 3060
+Packed 1543 unpacked 3060
+Packed 1577 unpacked 3060
+Packed 1627 unpacked 3060
+Packed 1817 unpacked 3060
+Packed 1673 unpacked 3060
+Packed 2916 unpacked 3060
+Packed 1555 unpacked 3060
+Packed 2607 unpacked 3060
+Packed 1672 unpacked 3060
+Packed 1798 unpacked 3060
+Packed 1744 unpacked 3060
+Packed 1761 unpacked 3060
+Packed 1879 unpacked 3060
+Packed 2069 unpacked 3060
+Packed 2467 unpacked 3060
+Packed 2029 unpacked 3060
+Packed 3376 unpacked 3060
+Packed 1856 unpacked 3060
+Packed 2163 unpacked 3060
+Packed 2269 unpacked 3060
+Packed 2090 unpacked 3060
+Packed 2155 unpacked 3060
+Packed 2268 unpacked 3060
+Packed 2111 unpacked 3060
+Packed 2199 unpacked 3060
+Packed 2587 unpacked 3060
+Packed 2497 unpacked 3060
+Packed 2306 unpacked 3060
+Packed 2211 unpacked 3060
+Packed 1934 unpacked 3060
+Packed 2391 unpacked 3060
+Packed 2283 unpacked 3060
+Packed 2701 unpacked 3060
+Packed 2634 unpacked 3060
+Packed 2872 unpacked 3060
+Packed 2829 unpacked 3060
+Packed 2876 unpacked 3060
+Packed 2561 unpacked 3060
+Packed 1508 unpacked 2232
+ins samp: 1
+ins hdln: 263
+ins name: SynthDrum
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 967
+sam fine: 100
+sam lpln: 104
+sam  pan: 112
+sam reln: -8
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TremoloStr
+in2 shsz: 40
+in2 nvp : 9
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9993
+sam fine: 100
+sam lpln: 9710
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: ChoirAahs
+in2 shsz: 40
+in2 nvp : 5
+in2 npp : 0
+in2 vfo : 409
+sam name: smp01M
+sam leng: 12433
+sam fine: 100
+sam lpln: 8712
+sam  pan: 112
+sam reln: -4
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CHINA60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 1310
+sam name: smp01M
+sam leng: 9138
+sam fine: 113
+sam lpln: 7039
+sam  pan: 112
+sam reln: 11
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 4
+ins hdln: 263
+ins name: OverdriveGt
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 4791
+sam fine: 100
+sam lpln: 424
+sam  pan: 112
+sam reln: 32
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 3935
+sam fine: 100
+sam lpln: 318
+sam  pan: 112
+sam reln: 27
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp03M
+sam leng: 2634
+sam fine: 100
+sam lpln: 169
+sam  pan: 112
+sam reln: 16
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp04M
+sam leng: 4391
+sam fine: 100
+sam lpln: 169
+sam  pan: 112
+sam reln: 4
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: MONDO60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 2069
+sam fine: 100
+sam lpln: 2005
+sam  pan: 112
+sam reln: 22
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CHH__60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 414
+sam name: smp01M
+sam leng: 1408
+sam fine: 100
+sam lpln: 1344
+sam  pan: 112
+sam reln: 20
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: T_SNR60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 3022
+sam fine: 100
+sam lpln: 2958
+sam  pan: 112
+sam reln: 24
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: OHH__60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 2520
+sam name: smp01M
+sam leng: 9601
+sam fine: 106
+sam lpln: 3761
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TRI__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 1826
+sam fine: 100
+sam lpln: 961
+sam  pan: 112
+sam reln: -18
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TRI__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 1826
+sam fine: 100
+sam lpln: 961
+sam  pan: 112
+sam reln: -18
+sam type: 0x1 (if &0x10, 16bit)
+read xm
+xm id  : Extended Module:
+xm name: D_E3M5
+xm trkr: GMID2MOD
+xm vers: 0104
+xm head: 276
+xm song: 42
+xm rest: 0
+xm chnl: 12
+xm patt: 42
+xm inst: 12
+xm flag: 1 (Linear)
+xm tmpo: 1
+xm BPM : 176
+
+Order: 00 0x1 0x2 0x3 0x4 0x5 0x6 0x7 0x8 0x9 0xa 0xb 0xc 0xd 0xe 0xf 0x10 0x11 0x12 0x13 0x14 0x15 0x16 0x17 0x18 0x19 0x1a 0x1b 0x1c 0x1d 0x1e 0x1f 0x20 0x21 0x22 0x23 0x24 0x25 0x26 0x27 0x28 0x29 
+
+Packed 335 unpacked 3060
+Packed 327 unpacked 3060
+Packed 600 unpacked 3060
+Packed 727 unpacked 3060
+Packed 538 unpacked 3060
+Packed 474 unpacked 3060
+Packed 528 unpacked 3060
+Packed 544 unpacked 3060
+Packed 570 unpacked 3060
+Packed 593 unpacked 3060
+Packed 562 unpacked 3060
+Packed 587 unpacked 3060
+Packed 594 unpacked 3060
+Packed 642 unpacked 3060
+Packed 583 unpacked 3060
+Packed 653 unpacked 3060
+Packed 628 unpacked 3060
+Packed 623 unpacked 3060
+Packed 675 unpacked 3060
+Packed 662 unpacked 3060
+Packed 662 unpacked 3060
+Packed 609 unpacked 3060
+Packed 656 unpacked 3060
+Packed 490 unpacked 3060
+Packed 453 unpacked 3060
+Packed 489 unpacked 3060
+Packed 545 unpacked 3060
+Packed 1376 unpacked 3060
+Packed 949 unpacked 3060
+Packed 551 unpacked 3060
+Packed 577 unpacked 3060
+Packed 1501 unpacked 3060
+Packed 890 unpacked 3060
+Packed 592 unpacked 3060
+Packed 861 unpacked 3060
+Packed 1273 unpacked 3060
+Packed 857 unpacked 3060
+Packed 693 unpacked 3060
+Packed 1241 unpacked 3060
+Packed 1044 unpacked 3060
+Packed 705 unpacked 3060
+Packed 358 unpacked 1272
+ins samp: 1
+ins hdln: 263
+ins name: Strings
+in2 shsz: 40
+in2 nvp : 5
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9993
+sam fine: 100
+sam lpln: 9710
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Santur
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp02M
+sam leng: 1554
+sam fine: 100
+sam lpln: 410
+sam  pan: 112
+sam reln: -10
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: PizzicatoStr
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 2184
+sam name: smp01M
+sam leng: 2503
+sam fine: 100
+sam lpln: 398
+sam  pan: 112
+sam reln: -7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Harp
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp02M
+sam leng: 3489
+sam fine: 100
+sam lpln: 520
+sam  pan: 112
+sam reln: -6
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TremoloStr
+in2 shsz: 40
+in2 nvp : 9
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9993
+sam fine: 100
+sam lpln: 9710
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Timpani
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 555
+sam name: smp01M
+sam leng: 6833
+sam fine: 100
+sam lpln: 6769
+sam  pan: 112
+sam reln: 9
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: T_SNR60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 3022
+sam fine: 100
+sam lpln: 2958
+sam  pan: 112
+sam reln: 24
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CHINA60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 1310
+sam name: smp01M
+sam leng: 9138
+sam fine: 113
+sam lpln: 7039
+sam  pan: 112
+sam reln: 11
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: SawWave
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 15275
+sam fine: 100
+sam lpln: 10132
+sam  pan: 112
+sam reln: 16
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Gt.FretNoise
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 2552
+sam fine: 100
+sam lpln: 2488
+sam  pan: 112
+sam reln: -5
+sam type: 00 (if &0x10, 16bit)
+read xm
+xm id  : Extended Module:
+xm name: D_E3M6
+xm trkr: GMID2MOD
+xm vers: 0104
+xm head: 276
+xm song: 24
+xm rest: 0
+xm chnl: 12
+xm patt: 24
+xm inst: 21
+xm flag: 1 (Linear)
+xm tmpo: 1
+xm BPM : 176
+
+Order: 00 0x1 0x2 0x3 0x4 0x5 0x6 0x7 0x8 0x9 0xa 0xb 0xc 0xd 0xe 0xf 0x10 0x11 0x12 0x13 0x14 0x15 0x16 0x17 
+
+Packed 1116 unpacked 3060
+Packed 752 unpacked 3060
+Packed 1253 unpacked 3060
+Packed 1524 unpacked 3060
+Packed 1234 unpacked 3060
+Packed 1187 unpacked 3060
+Packed 1278 unpacked 3060
+Packed 1216 unpacked 3060
+Packed 1240 unpacked 3060
+Packed 1225 unpacked 3060
+Packed 1243 unpacked 3060
+Packed 1269 unpacked 3060
+Packed 1439 unpacked 3060
+Packed 1475 unpacked 3060
+Packed 1418 unpacked 3060
+Packed 1386 unpacked 3060
+Packed 1479 unpacked 3060
+Packed 1411 unpacked 3060
+Packed 1470 unpacked 3060
+Packed 1419 unpacked 3060
+Packed 1397 unpacked 3060
+Packed 1427 unpacked 3060
+Packed 1390 unpacked 3060
+Packed 76 unpacked 192
+ins samp: 1
+ins hdln: 263
+ins name: SynthBrass1
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp02M
+sam leng: 6052
+sam fine: 100
+sam lpln: 2191
+sam  pan: 112
+sam reln: 4
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Timpani
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 555
+sam name: smp01M
+sam leng: 6833
+sam fine: 100
+sam lpln: 6769
+sam  pan: 112
+sam reln: 9
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: MusicBox
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp02M
+sam leng: 828
+sam fine: 91
+sam lpln: 213
+sam  pan: 112
+sam reln: -18
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: T_SNR60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 3022
+sam fine: 100
+sam lpln: 2958
+sam  pan: 112
+sam reln: 24
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: MONDO60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 2069
+sam fine: 100
+sam lpln: 2005
+sam  pan: 112
+sam reln: 22
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 2
+ins hdln: 263
+ins name: SynthBrass2
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9541
+sam fine: 100
+sam lpln: 675
+sam  pan: 112
+sam reln: 21
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 5787
+sam fine: 100
+sam lpln: 338
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: FingeredBs.
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 2855
+sam fine: 100
+sam lpln: 106
+sam  pan: 112
+sam reln: 8
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Kalimba
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 1526
+sam fine: 100
+sam lpln: 48
+sam  pan: 112
+sam reln: -6
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: OHH__60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 2520
+sam name: smp01M
+sam leng: 9601
+sam fine: 106
+sam lpln: 3761
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: SawWave
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 15275
+sam fine: 100
+sam lpln: 10132
+sam  pan: 112
+sam reln: 16
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: RDCYM60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9058
+sam fine: 103
+sam lpln: 4113
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: RDCYM60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9058
+sam fine: 103
+sam lpln: 4113
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: RDBEL64B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 390
+sam name: smp01M
+sam leng: 8968
+sam fine: 95
+sam lpln: 3960
+sam  pan: 112
+sam reln: 5
+sam type: 0x1 (if &0x10, 16bit)
+read xm
+xm id  : Extended Module:
+xm name: D_E3M7
+xm trkr: GMID2MOD
+xm vers: 0104
+xm head: 276
+xm song: 29
+xm rest: 0
+xm chnl: 12
+xm patt: 29
+xm inst: 7
+xm flag: 1 (Linear)
+xm tmpo: 1
+xm BPM : 176
+
+Order: 00 0x1 0x2 0x3 0x4 0x5 0x6 0x7 0x8 0x9 0xa 0xb 0xc 0xd 0xe 0xf 0x10 0x11 0x12 0x13 0x14 0x15 0x16 0x17 0x18 0x19 0x1a 0x1b 0x1c 
+
+Packed 448 unpacked 3060
+Packed 411 unpacked 3060
+Packed 801 unpacked 3060
+Packed 627 unpacked 3060
+Packed 614 unpacked 3060
+Packed 1004 unpacked 3060
+Packed 602 unpacked 3060
+Packed 906 unpacked 3060
+Packed 717 unpacked 3060
+Packed 606 unpacked 3060
+Packed 968 unpacked 3060
+Packed 639 unpacked 3060
+Packed 609 unpacked 3060
+Packed 705 unpacked 3060
+Packed 718 unpacked 3060
+Packed 672 unpacked 3060
+Packed 737 unpacked 3060
+Packed 695 unpacked 3060
+Packed 1070 unpacked 3060
+Packed 721 unpacked 3060
+Packed 706 unpacked 3060
+Packed 1099 unpacked 3060
+Packed 709 unpacked 3060
+Packed 706 unpacked 3060
+Packed 757 unpacked 3060
+Packed 738 unpacked 3060
+Packed 750 unpacked 3060
+Packed 755 unpacked 3060
+Packed 881 unpacked 3036
+ins samp: 2
+ins hdln: 263
+ins name: Strings
+in2 shsz: 40
+in2 nvp : 5
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9993
+sam fine: 100
+sam lpln: 9710
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 11451
+sam fine: 100
+sam lpln: 11272
+sam  pan: 112
+sam reln: -7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Piccolo
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 1229
+sam fine: 100
+sam lpln: 82
+sam  pan: 112
+sam reln: -6
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Xylophone
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 1116
+sam fine: 100
+sam lpln: 125
+sam  pan: 112
+sam reln: -8
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: OrchestraHit
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 15423
+sam fine: 100
+sam lpln: 2014
+sam  pan: 112
+sam reln: -4
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Timpani
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 555
+sam name: smp01M
+sam leng: 6833
+sam fine: 100
+sam lpln: 6769
+sam  pan: 112
+sam reln: 9
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Kalimba
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 1526
+sam fine: 100
+sam lpln: 48
+sam  pan: 112
+sam reln: -6
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TremoloStr
+in2 shsz: 40
+in2 nvp : 9
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9993
+sam fine: 100
+sam lpln: 9710
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+read xm
+xm id  : Extended Module:
+xm name: D_E3M8
+xm trkr: GMID2MOD
+xm vers: 0104
+xm head: 276
+xm song: 27
+xm rest: 0
+xm chnl: 12
+xm patt: 27
+xm inst: 10
+xm flag: 1 (Linear)
+xm tmpo: 1
+xm BPM : 176
+
+Order: 00 0x1 0x2 0x3 0x4 0x5 0x6 0x7 0x8 0x9 0xa 0xb 0xc 0xd 0xe 0xf 0x10 0x11 0x12 0x13 0x14 0x15 0x16 0x17 0x18 0x19 0x1a 
+
+Packed 523 unpacked 3060
+Packed 1430 unpacked 3060
+Packed 1829 unpacked 3060
+Packed 1952 unpacked 3060
+Packed 1937 unpacked 3060
+Packed 2017 unpacked 3060
+Packed 2013 unpacked 3060
+Packed 1973 unpacked 3060
+Packed 1944 unpacked 3060
+Packed 1878 unpacked 3060
+Packed 1997 unpacked 3060
+Packed 1869 unpacked 3060
+Packed 2001 unpacked 3060
+Packed 631 unpacked 3060
+Packed 683 unpacked 3060
+Packed 1417 unpacked 3060
+Packed 1937 unpacked 3060
+Packed 1959 unpacked 3060
+Packed 1861 unpacked 3060
+Packed 1911 unpacked 3060
+Packed 1874 unpacked 3060
+Packed 1925 unpacked 3060
+Packed 1904 unpacked 3060
+Packed 1923 unpacked 3060
+Packed 1808 unpacked 3060
+Packed 1882 unpacked 3060
+Packed 650 unpacked 1092
+ins samp: 1
+ins hdln: 263
+ins name: DistortionGt
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 3683
+sam fine: 100
+sam lpln: 337
+sam  pan: 112
+sam reln: 28
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: FingeredBs.
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 2855
+sam fine: 100
+sam lpln: 106
+sam  pan: 112
+sam reln: 8
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Gt.Harmonics
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 887
+sam fine: 100
+sam lpln: 71
+sam  pan: 112
+sam reln: -3
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: MONDO60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 2069
+sam fine: 100
+sam lpln: 2005
+sam  pan: 112
+sam reln: 22
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CHH__60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 414
+sam name: smp01M
+sam leng: 1408
+sam fine: 100
+sam lpln: 1344
+sam  pan: 112
+sam reln: 20
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: T_SNR60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 3022
+sam fine: 100
+sam lpln: 2958
+sam  pan: 112
+sam reln: 24
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: OHH__60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 2520
+sam name: smp01M
+sam leng: 9601
+sam fine: 106
+sam lpln: 3761
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+read xm
+xm id  : Extended Module:
+xm name: D_E3M9
+xm trkr: GMID2MOD
+xm vers: 0104
+xm head: 276
+xm song: 38
+xm rest: 0
+xm chnl: 12
+xm patt: 38
+xm inst: 17
+xm flag: 1 (Linear)
+xm tmpo: 1
+xm BPM : 176
+
+Order: 00 0x1 0x2 0x3 0x4 0x5 0x6 0x7 0x8 0x9 0xa 0xb 0xc 0xd 0xe 0xf 0x10 0x11 0x12 0x13 0x14 0x15 0x16 0x17 0x18 0x19 0x1a 0x1b 0x1c 0x1d 0x1e 0x1f 0x20 0x21 0x22 0x23 0x24 0x25 
+
+Packed 1169 unpacked 3060
+Packed 1603 unpacked 3060
+Packed 1291 unpacked 3060
+Packed 1329 unpacked 3060
+Packed 1287 unpacked 3060
+Packed 1343 unpacked 3060
+Packed 1266 unpacked 3060
+Packed 1350 unpacked 3060
+Packed 1268 unpacked 3060
+Packed 1361 unpacked 3060
+Packed 1387 unpacked 3060
+Packed 1364 unpacked 3060
+Packed 1389 unpacked 3060
+Packed 1304 unpacked 3060
+Packed 1265 unpacked 3060
+Packed 1303 unpacked 3060
+Packed 1257 unpacked 3060
+Packed 1396 unpacked 3060
+Packed 1517 unpacked 3060
+Packed 1447 unpacked 3060
+Packed 1383 unpacked 3060
+Packed 1393 unpacked 3060
+Packed 1328 unpacked 3060
+Packed 1402 unpacked 3060
+Packed 1453 unpacked 3060
+Packed 1377 unpacked 3060
+Packed 1512 unpacked 3060
+Packed 1620 unpacked 3060
+Packed 1440 unpacked 3060
+Packed 1468 unpacked 3060
+Packed 1358 unpacked 3060
+Packed 1371 unpacked 3060
+Packed 1340 unpacked 3060
+Packed 1370 unpacked 3060
+Packed 1413 unpacked 3060
+Packed 1466 unpacked 3060
+Packed 1439 unpacked 3060
+Packed 994 unpacked 2172
+ins samp: 3
+ins hdln: 263
+ins name: DistortionGt
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 3683
+sam fine: 100
+sam lpln: 337
+sam  pan: 112
+sam reln: 28
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 3313
+sam fine: 100
+sam lpln: 237
+sam  pan: 112
+sam reln: 22
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp03M
+sam leng: 2301
+sam fine: 100
+sam lpln: 178
+sam  pan: 112
+sam reln: 17
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: FingeredBs.
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 2855
+sam fine: 100
+sam lpln: 106
+sam  pan: 112
+sam reln: 8
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: MONDO60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 2069
+sam fine: 100
+sam lpln: 2005
+sam  pan: 112
+sam reln: 22
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: T_SNR60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 3022
+sam fine: 100
+sam lpln: 2958
+sam  pan: 112
+sam reln: 24
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CHH__60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 414
+sam name: smp01M
+sam leng: 1408
+sam fine: 100
+sam lpln: 1344
+sam  pan: 112
+sam reln: 20
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: RDBEL64B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 390
+sam name: smp01M
+sam leng: 8968
+sam fine: 95
+sam lpln: 3960
+sam  pan: 112
+sam reln: 5
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Syn.Calliope
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 5666
+sam fine: 104
+sam lpln: 3546
+sam  pan: 112
+sam reln: -8
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: RDCYM60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9058
+sam fine: 103
+sam lpln: 4113
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Violin
+in2 shsz: 40
+in2 nvp : 5
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 1479
+sam fine: 100
+sam lpln: 106
+sam  pan: 112
+sam reln: 8
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 3
+ins hdln: 263
+ins name: Viola
+in2 shsz: 40
+in2 nvp : 5
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 1479
+sam fine: 100
+sam lpln: 106
+sam  pan: 112
+sam reln: 8
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 1610
+sam fine: 100
+sam lpln: 95
+sam  pan: 112
+sam reln: 6
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp03M
+sam leng: 1429
+sam fine: 100
+sam lpln: 67
+sam  pan: 112
+sam reln: 0
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 2
+ins hdln: 263
+ins name: Cello
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 1814
+sam fine: 100
+sam lpln: 531
+sam  pan: 112
+sam reln: 36
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 1098
+sam fine: 100
+sam lpln: 253
+sam  pan: 112
+sam reln: 23
+sam type: 0x1 (if &0x10, 16bit)
+read xm
+xm id  : Extended Module:
+xm name: D_Victor
+xm trkr: GMID2MOD
+xm vers: 0104
+xm head: 276
+xm song: 53
+xm rest: 0
+xm chnl: 12
+xm patt: 53
+xm inst: 13
+xm flag: 1 (Linear)
+xm tmpo: 1
+xm BPM : 176
+
+Order: 00 0x1 0x2 0x3 0x4 0x5 0x6 0x7 0x8 0x9 0xa 0xb 0xc 0xd 0xe 0xf 0x10 0x11 0x12 0x13 0x14 0x15 0x16 0x17 0x18 0x19 0x1a 0x1b 0x1c 0x1d 0x1e 0x1f 0x20 0x21 0x22 0x23 0x24 0x25 0x26 0x27 0x28 0x29 0x2a 0x2b 0x2c 0x2d 0x2e 0x2f 0x30 0x31 0x32 0x33 0x34 
+
+Packed 331 unpacked 3060
+Packed 316 unpacked 3060
+Packed 327 unpacked 3060
+Packed 325 unpacked 3060
+Packed 534 unpacked 3060
+Packed 558 unpacked 3060
+Packed 573 unpacked 3060
+Packed 580 unpacked 3060
+Packed 640 unpacked 3060
+Packed 950 unpacked 3060
+Packed 1011 unpacked 3060
+Packed 936 unpacked 3060
+Packed 967 unpacked 3060
+Packed 1002 unpacked 3060
+Packed 998 unpacked 3060
+Packed 970 unpacked 3060
+Packed 922 unpacked 3060
+Packed 959 unpacked 3060
+Packed 979 unpacked 3060
+Packed 954 unpacked 3060
+Packed 1009 unpacked 3060
+Packed 985 unpacked 3060
+Packed 946 unpacked 3060
+Packed 960 unpacked 3060
+Packed 1002 unpacked 3060
+Packed 1033 unpacked 3060
+Packed 971 unpacked 3060
+Packed 991 unpacked 3060
+Packed 927 unpacked 3060
+Packed 996 unpacked 3060
+Packed 1060 unpacked 3060
+Packed 1202 unpacked 3060
+Packed 1238 unpacked 3060
+Packed 1188 unpacked 3060
+Packed 1155 unpacked 3060
+Packed 1202 unpacked 3060
+Packed 1192 unpacked 3060
+Packed 1180 unpacked 3060
+Packed 1290 unpacked 3060
+Packed 1178 unpacked 3060
+Packed 1167 unpacked 3060
+Packed 1170 unpacked 3060
+Packed 1294 unpacked 3060
+Packed 1204 unpacked 3060
+Packed 1186 unpacked 3060
+Packed 1256 unpacked 3060
+Packed 1203 unpacked 3060
+Packed 1213 unpacked 3060
+Packed 1173 unpacked 3060
+Packed 1306 unpacked 3060
+Packed 1176 unpacked 3060
+Packed 1065 unpacked 3060
+Packed 741 unpacked 2172
+ins samp: 1
+ins hdln: 263
+ins name: Clav.
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 667
+sam fine: 100
+sam lpln: 168
+sam  pan: 112
+sam reln: 16
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: AcousticBs.
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 8272
+sam fine: 100
+sam lpln: 426
+sam  pan: 112
+sam reln: 32
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 2
+ins hdln: 263
+ins name: Strings
+in2 shsz: 40
+in2 nvp : 5
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9993
+sam fine: 100
+sam lpln: 9710
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 11451
+sam fine: 100
+sam lpln: 11272
+sam  pan: 112
+sam reln: -7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Timpani
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 555
+sam name: smp01M
+sam leng: 6833
+sam fine: 100
+sam lpln: 6769
+sam  pan: 112
+sam reln: 9
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: MONDO60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 2069
+sam fine: 100
+sam lpln: 2005
+sam  pan: 112
+sam reln: 22
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CHH__60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 414
+sam name: smp01M
+sam leng: 1408
+sam fine: 100
+sam lpln: 1344
+sam  pan: 112
+sam reln: 20
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: HaloPad
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 12433
+sam fine: 100
+sam lpln: 8712
+sam  pan: 112
+sam reln: -4
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CLAVE60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 454
+sam fine: 100
+sam lpln: 390
+sam  pan: 112
+sam reln: -18
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: T_SNR60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 3022
+sam fine: 100
+sam lpln: 2958
+sam  pan: 112
+sam reln: 24
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TRI__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 1826
+sam fine: 100
+sam lpln: 961
+sam  pan: 112
+sam reln: -18
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: OHH__60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 2520
+sam name: smp01M
+sam leng: 9601
+sam fine: 106
+sam lpln: 3761
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CHINA60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 1310
+sam name: smp01M
+sam leng: 9138
+sam fine: 113
+sam lpln: 7039
+sam  pan: 112
+sam reln: 11
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TRI__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 1826
+sam fine: 100
+sam lpln: 961
+sam  pan: 112
+sam reln: -18
+sam type: 0x1 (if &0x10, 16bit)
+read xm
+xm id  : Extended Module:
+xm name: D_Bunny
+xm trkr: GMID2MOD
+xm vers: 0104
+xm head: 276
+xm song: 18
+xm rest: 0
+xm chnl: 12
+xm patt: 18
+xm inst: 17
+xm flag: 1 (Linear)
+xm tmpo: 1
+xm BPM : 176
+
+Order: 00 0x1 0x2 0x3 0x4 0x5 0x6 0x7 0x8 0x9 0xa 0xb 0xc 0xd 0xe 0xf 0x10 0x11 
+
+Packed 588 unpacked 3060
+Packed 609 unpacked 3060
+Packed 595 unpacked 3060
+Packed 471 unpacked 3060
+Packed 893 unpacked 3060
+Packed 1030 unpacked 3060
+Packed 1533 unpacked 3060
+Packed 1932 unpacked 3060
+Packed 1673 unpacked 3060
+Packed 1466 unpacked 3060
+Packed 1684 unpacked 3060
+Packed 1470 unpacked 3060
+Packed 1757 unpacked 3060
+Packed 1881 unpacked 3060
+Packed 1957 unpacked 3060
+Packed 280 unpacked 3060
+Packed 268 unpacked 3060
+Packed 6 unpacked 72
+ins samp: 1
+ins hdln: 263
+ins name: PanFlute
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp02M
+sam leng: 3877
+sam fine: 100
+sam lpln: 2165
+sam  pan: 112
+sam reln: -9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 2
+ins hdln: 263
+ins name: Harp
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 3873
+sam fine: 100
+sam lpln: 501
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 3489
+sam fine: 100
+sam lpln: 520
+sam  pan: 112
+sam reln: -6
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Bird
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 910
+sam name: smp01M
+sam leng: 4054
+sam fine: 100
+sam lpln: 1486
+sam  pan: 112
+sam reln: -13
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Piccolo
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 1229
+sam fine: 100
+sam lpln: 82
+sam  pan: 112
+sam reln: -15
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 2
+ins hdln: 263
+ins name: Bassoon
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 805
+sam fine: 100
+sam lpln: 212
+sam  pan: 112
+sam reln: 20
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 286
+sam fine: 100
+sam lpln: 49
+sam  pan: 112
+sam reln: -5
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 2
+ins hdln: 263
+ins name: Strings
+in2 shsz: 40
+in2 nvp : 5
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 9993
+sam fine: 100
+sam lpln: 9710
+sam  pan: 112
+sam reln: 7
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 11451
+sam fine: 100
+sam lpln: 11272
+sam  pan: 112
+sam reln: -7
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: DistortionGt
+in2 shsz: 40
+in2 nvp : 3
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 3683
+sam fine: 100
+sam lpln: 337
+sam  pan: 112
+sam reln: 28
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 2
+ins hdln: 263
+ins name: FingeredBs.
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 2855
+sam fine: 100
+sam lpln: 106
+sam  pan: 112
+sam reln: 8
+sam type: 0x1 (if &0x10, 16bit)
+sam name: smp02M
+sam leng: 2593
+sam fine: 100
+sam lpln: 89
+sam  pan: 112
+sam reln: 5
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: MONDO60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 2069
+sam fine: 100
+sam lpln: 2005
+sam  pan: 112
+sam reln: 22
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: T_SNR60A
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 496
+sam name: smp01M
+sam leng: 3022
+sam fine: 100
+sam lpln: 2958
+sam  pan: 112
+sam reln: 24
+sam type: 00 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: OHH__60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 2520
+sam name: smp01M
+sam leng: 9601
+sam fine: 106
+sam lpln: 3761
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: Gt.Harmonics
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 887
+sam fine: 100
+sam lpln: 71
+sam  pan: 112
+sam reln: -3
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: TOM__60
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 4095
+sam name: smp01M
+sam leng: 6498
+sam fine: 36
+sam lpln: 1003
+sam  pan: 112
+sam reln: 19
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)
+ins samp: 1
+ins hdln: 263
+ins name: CRASH60B
+in2 shsz: 40
+in2 nvp : 4
+in2 npp : 0
+in2 vfo : 385
+sam name: smp01M
+sam leng: 8323
+sam fine: 85
+sam lpln: 5676
+sam  pan: 112
+sam reln: 9
+sam type: 0x1 (if &0x10, 16bit)

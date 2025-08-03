@@ -1,0 +1,57 @@
+# 68K Makefile - outputs to out/md
+
+ifeq ($(GENDEV),)
+ROOTDIR = /opt/toolchains/sega
+else
+ROOTDIR = $(GENDEV)
+endif
+
+LDSCRIPTSDIR = $(ROOTDIR)/ldscripts
+
+OUTDIR = out/source/md
+TARGET = $(OUTDIR)/m68k
+
+LIBPATH = -L$(ROOTDIR)/m68k-elf/lib -L$(ROOTDIR)/m68k-elf/lib/gcc/m68k-elf/4.6.2 -L$(ROOTDIR)/m68k-elf/m68k-elf/lib
+INCPATH = -I. -I$(ROOTDIR)/m68k-elf/include -I$(ROOTDIR)/m68k-elf/m68k-elf/include
+
+CCFLAGS = -m68000 -Wall -O1 -c -fomit-frame-pointer
+ASFLAGS = -m68000 --register-prefix-optional
+LINKFLAGS = -T $(LDSCRIPTSDIR)/mars-md.ld -Wl,-Map=$(TARGET).map -nostdlib
+
+PREFIX = $(ROOTDIR)/m68k-elf/bin/m68k-elf-
+CC  = $(PREFIX)gcc
+AS  = $(PREFIX)as
+LD  = $(PREFIX)ld
+OBJC = $(PREFIX)objcopy
+
+DD = dd
+RM = rm -f
+MKDIR = mkdir -p
+
+C_SRC = source/md/main.c
+S_SRC = source/md/crt0.s source/md/cd.s source/md/kos.s  
+
+C_OBJS = $(patsubst source/md/%.c,$(OUTDIR)/%.o,$(C_SRC))
+S_OBJS = $(patsubst source/md/%.s,$(OUTDIR)/%.o,$(S_SRC))
+
+OBJS = $(S_OBJS) $(C_OBJS) 
+
+all: $(TARGET).bin
+
+$(OUTDIR):
+	$(MKDIR) $(OUTDIR)
+
+$(TARGET).bin: $(TARGET).elf | $(OUTDIR)
+	$(OBJC) -O binary $< $@
+
+$(TARGET).elf: $(OBJS) | $(OUTDIR)
+	$(CC) $(LINKFLAGS) $(OBJS) $(LIBPATH) -lc -lgcc -lnosys -o $@
+
+$(OUTDIR)/%.o: source/md/%.c | $(OUTDIR)
+	$(CC) $(CCFLAGS) $(INCPATH) -o $@ -c $<
+
+$(OUTDIR)/%.o: source/md/%.s | $(OUTDIR)
+	$(AS) $(ASFLAGS) $(INCPATH) -o $@ $<
+
+clean:
+	$(RM) $(OUTDIR)/*.o $(TARGET).bin $(TARGET).elf $(TARGET).map

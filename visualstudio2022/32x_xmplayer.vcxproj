@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{DF9DAC1D-DFD3-4E02-98E3-39B47511D44F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>32x_xmplayer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <NMakeBuildCommandLine>build.bat</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>clean.bat</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rebuild.bat</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>build.bat</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>clean.bat</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rebuild.bat</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>build.bat</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>clean.bat</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rebuild.bat</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <NMakeBuildCommandLine>build.bat</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>clean.bat</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rebuild.bat</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lib\libxmp\tables.h" />
+    <ClInclude Include="..\lib\libxmp\xmp.h" />
+    <ClInclude Include="..\source\32x\32x.h" />
+    <ClInclude Include="..\source\32x\files.h" />
+    <ClInclude Include="..\source\32x\hw_32x.h" />
+    <ClInclude Include="..\source\32x\mods.h" />
+    <ClInclude Include="..\source\32x\music\modules.h" />
+    <ClInclude Include="..\source\32x\mixer.h" />
+    <ClInclude Include="..\source\32x\sound_manager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\build\build.bat" />
+    <None Include="..\build\clean.bat" />
+    <None Include="..\build\deploy.bat" />
+    <None Include="..\build\Makefile_32x" />
+    <None Include="..\build\Makefile_MD" />
+    <None Include="..\build\rebuild.bat" />
+    <None Include="..\source\32x\crt0.s" />
+    <None Include="..\source\32x\edc_table.i" />
+    <None Include="..\source\32x\files.s" />
+    <None Include="..\source\32x\music\module_data.s" />
+    <None Include="..\source\32x\sound_manager_dma.s" />
+    <None Include="..\source\md\cd.s" />
+    <None Include="..\source\md\crt0.s" />
+    <None Include="..\source\md\kos.s" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lib\libxmp\mklfrtable.c" />
+    <ClCompile Include="..\lib\libxmp\xmp.c" />
+    <ClCompile Include="..\source\32x\font.c" />
+    <ClCompile Include="..\source\32x\hw_32x.c" />
+    <ClCompile Include="..\source\32x\main.c" />
+    <ClCompile Include="..\source\32x\music\module_structure.c" />
+    <ClCompile Include="..\source\32x\mixer.c" />
+    <ClCompile Include="..\source\32x\secondary.c" />
+    <ClCompile Include="..\source\32x\sound_manager.c" />
+    <ClCompile Include="..\source\md\main.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

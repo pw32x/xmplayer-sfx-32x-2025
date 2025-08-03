@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="build">
+      <UniqueIdentifier>{a5b87efe-d4a7-49f9-9555-a4ae986039c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\32x">
+      <UniqueIdentifier>{5c1ea3fc-14ae-490f-9b4e-1f482daa212c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\32x\music">
+      <UniqueIdentifier>{93b71f05-4d6e-4472-bd5e-8ea7153f37b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MD">
+      <UniqueIdentifier>{f262a97f-4973-46e4-a391-191d58636afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{51db2a2b-4cdb-49b2-a6fd-41cd57623f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\libxmp">
+      <UniqueIdentifier>{d6349d4e-e4cf-4554-804e-a7b4674b2fa1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\32x\music\modules.h">
+      <Filter>Source Files\32x\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\32x\mods.h">
+      <Filter>Source Files\32x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\32x\sound_manager.h">
+      <Filter>Source Files\32x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\32x\32x.h">
+      <Filter>Source Files\32x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\32x\files.h">
+      <Filter>Source Files\32x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\32x\hw_32x.h">
+      <Filter>Source Files\32x</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\libxmp\tables.h">
+      <Filter>lib\libxmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\libxmp\xmp.h">
+      <Filter>lib\libxmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\32x\mixer.h">
+      <Filter>Source Files\32x</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\build\clean.bat">
+      <Filter>build</Filter>
+    </None>
+    <None Include="..\build\deploy.bat">
+      <Filter>build</Filter>
+    </None>
+    <None Include="..\build\Makefile_32x">
+      <Filter>build</Filter>
+    </None>
+    <None Include="..\build\rebuild.bat">
+      <Filter>build</Filter>
+    </None>
+    <None Include="..\build\build.bat">
+      <Filter>build</Filter>
+    </None>
+    <None Include="..\source\32x\music\module_data.s">
+      <Filter>Source Files\32x\music</Filter>
+    </None>
+    <None Include="..\source\32x\crt0.s">
+      <Filter>Source Files\32x</Filter>
+    </None>
+    <None Include="..\source\32x\edc_table.i">
+      <Filter>Source Files\32x</Filter>
+    </None>
+    <None Include="..\source\32x\files.s">
+      <Filter>Source Files\32x</Filter>
+    </None>
+    <None Include="..\build\Makefile_MD">
+      <Filter>build</Filter>
+    </None>
+    <None Include="..\source\md\kos.s">
+      <Filter>Source Files\MD</Filter>
+    </None>
+    <None Include="..\source\md\cd.s">
+      <Filter>Source Files\MD</Filter>
+    </None>
+    <None Include="..\source\md\crt0.s">
+      <Filter>Source Files\MD</Filter>
+    </None>
+    <None Include="..\source\32x\sound_manager_dma.s">
+      <Filter>Source Files\32x</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\32x\music\module_structure.c">
+      <Filter>Source Files\32x\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\32x\main.c">
+      <Filter>Source Files\32x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\32x\secondary.c">
+      <Filter>Source Files\32x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\32x\sound_manager.c">
+      <Filter>Source Files\32x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\32x\font.c">
+      <Filter>Source Files\32x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\32x\hw_32x.c">
+      <Filter>Source Files\32x</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\md\main.c">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\libxmp\xmp.c">
+      <Filter>lib\libxmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\libxmp\mklfrtable.c">
+      <Filter>lib\libxmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\32x\mixer.c">
+      <Filter>Source Files\32x</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

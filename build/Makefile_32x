@@ -1,0 +1,93 @@
+ifdef $(GENDEV)
+ROOTDIR = $(GENDEV)
+else
+ROOTDIR = /opt/toolchains/sega
+endif
+
+LDSCRIPTSDIR = $(ROOTDIR)/ldscripts
+
+LIBPATH = -L$(ROOTDIR)/sh-elf/lib -L$(ROOTDIR)/sh-elf/lib/gcc/sh-elf/4.6.2 -L$(ROOTDIR)/sh-elf/sh-elf/lib -Llib/libxmp
+INCPATH = -I. -I$(ROOTDIR)/sh-elf/include -I$(ROOTDIR)/sh-elf/sh-elf/include -Ilib/libxmp -Isource/32x
+
+CCFLAGS = -m2 -mb -Ofast -Wall -c -fomit-frame-pointer
+CCFLAGS += -D__32X__ -DUSE_VOL_ENVELOPE -DLINEAR_CROSSFADE
+HWFLAGS = -m2 -mb -O1 -Wall -c -fomit-frame-pointer
+LDFLAGS = -T $(LDSCRIPTSDIR)/mars.ld -Wl,-Map=out/output.map -nostdlib
+ASFLAGS = --big --defsym LINEAR_CROSSFADE=1
+
+PREFIX = $(ROOTDIR)/sh-elf/bin/sh-elf-
+CC = $(PREFIX)gcc
+AS = $(PREFIX)as
+LD = $(PREFIX)ld
+OBJC = $(PREFIX)objcopy
+
+DD = dd
+RM = rm -f
+
+OUTDIR = out
+TARGET = $(OUTDIR)/XMPlayer
+
+# Non-recursive: root, source/32x, source/32x/music only
+SRC_C := $(wildcard ./*.c) $(wildcard source/32x/*.c) $(wildcard source/32x/music/*.c)
+SRC_S := $(wildcard ./*.s) $(wildcard source/32x/*.s) $(wildcard source/32x/music/*.s)
+SRC_I := $(wildcard ./*.i) $(wildcard source/32x/*.i) $(wildcard source/32x/music/*.i)
+
+OBJ_S := $(patsubst %.s,$(OUTDIR)/%.o,$(SRC_S))
+OBJ_C := $(patsubst %.c,$(OUTDIR)/%.o,$(SRC_C))
+
+
+OBJS := $(OBJ_S) $(OBJ_C) 
+
+LIBS = $(LIBPATH) -lxmp -lc -lgcc -lgcc-Os-4-200 -lnosys
+#OBJS = \
+#	source/32x/crt0.o \
+#	source/32x/main.o \
+#	source/32x/secondary.o \
+#	source/32x/sound.o \
+#	source/32x/hw_32x.o \
+#	source/32x/font.o \
+#	source/32x/music/module_structure.o \
+#	source/32x/music/module_data.o \
+#	source/32x/files.o
+
+all: $(OUTDIR)/source/md/m68k.bin $(TARGET).bin
+
+$(OUTDIR)/source/md/m68k.bin:
+	make -f build/Makefile_MD
+
+$(TARGET).bin: $(TARGET).elf
+	$(OBJC) -O binary $< $(OUTDIR)/temp.bin
+	$(DD) if=$(OUTDIR)/temp.bin of=$@ bs=128K conv=sync
+
+$(TARGET).elf: $(OBJS)
+	$(CC) $(LDFLAGS) $(OBJS) $(LIBS) -o $@
+
+# Special rule for hw_32x.c (uses HWFLAGS)
+$(OUTDIR)/source/32x/hw_32x.o: source/32x/hw_32x.c | prepare
+	@mkdir -p $(dir $@)
+	$(CC) $(HWFLAGS) $(INCPATH) -c $< -o $@
+
+# Generic C compile rule
+$(OUTDIR)/%.o: %.c | prepare
+	@mkdir -p $(dir $@)
+	$(CC) $(CCFLAGS) $(INCPATH) -c $< -o $@
+
+# Generic assembly compile rule
+$(OUTDIR)/%.o: %.s | prepare
+	@mkdir -p $(dir $@)
+	$(AS) $(ASFLAGS) $(INCPATH) -c $< -o $@
+
+prepare:
+	@mkdir -p $(OUTDIR)/source/32x/music
+	@mkdir -p $(OUTDIR)/source/32x
+	@mkdir -p $(OUTDIR)/source/md
+
+clean:
+	make clean -f build/Makefile_MD
+	$(RM) $(OUTDIR)/*.o \
+	      $(OUTDIR)/source/32x/*.o \
+	      $(OUTDIR)/source/32x/music/*.o \
+	      $(OUTDIR)/*.bin \
+	      $(OUTDIR)/*.elf \
+	      $(OUTDIR)/temp.bin \
+	      $(OUTDIR)/output.map
